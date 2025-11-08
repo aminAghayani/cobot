@@ -1,0 +1,22 @@
+{
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "python.analysis.extraPaths": [
+        "/opt/ros/humble/lib/python3.10/site-packages"
+    ],
+    "cmake.sourceDirectory": "${workspaceFolder}/src",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.configureSettings": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+    },
+    "terminal.integrated.env.linux": {
+        "ROS_DISTRO": "humble",
+        "AMENT_PREFIX_PATH": "/opt/ros/humble",
+        "COLCON_PREFIX_PATH": "/opt/ros/humble",
+        "PYTHONPATH": "/opt/ros/humble/lib/python3.10/site-packages"
+    },
+    "ros.distro": "humble",
+    "files.associations": {
+        "*.launch.py": "python"
+    },
+    "editor.formatOnSave": true
+}

@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "colcon build",
+            "type": "shell",
+            "command": "colcon build --symlink-install",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "source ROS 2 setup",
+            "type": "shell",
+            "command": "source /opt/ros/humble/setup.bash && source install/setup.bash",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            }
+        }
+    ]
+}

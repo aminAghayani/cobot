@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ROS 2: Debug C++ Node",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/install/${input:package}/lib/${input:package}/${input:executable}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                {
+                    "name": "LD_LIBRARY_PATH",
+                    "value": "/opt/ros/humble/lib:${workspaceFolder}/install/lib"
+                }
+            ],
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "externalConsole": true
+        }
+    ],
+    "inputs": [
+        {
+            "id": "package",
+            "type": "promptString",
+            "description": "Enter ROS 2 package name"
+        },
+        {
+            "id": "executable",
+            "type": "promptString",
+            "description": "Enter node executable name"
+        }
+    ]
+}
