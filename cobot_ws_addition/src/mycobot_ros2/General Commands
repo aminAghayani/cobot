@@ -1,0 +1,28 @@
+General Commands:
+ros2 launch mycobot_gazebo mycobot.gazebo.launch.py
+ros2 launch mycobot_moveit_config move_group.launch.py
+ros2 control list_controllers
+ros2 service list
+
+Commands for Arm:
+
+ros2 control switch_controllers --activate arm_controller
+ros2 control switch_controllers --activate gripper_controller
+ros2 topic pub /arm_controller/joint_trajectory trajectory_msgs/msg/JointTrajectory "{
+  joint_names: ['link1_to_link2', 'link2_to_link3', 'link3_to_link4', 'link4_to_link5', 'link5_to_link6', 'link6_to_link6_flange'],
+  points: [
+    {positions: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], time_from_start: {sec: 1, nanosec: 0}},
+    {positions: [0.3, 0.3, 0.3, 0.3, 0.3, 0.3], time_from_start: {sec: 4, nanosec: 0}}
+  ]
+}"
+
+ros2 action send_goal /gripper_action_controller/gripper_cmd control_msgs/action/GripperCommand "{command: {position: 0.8, max_effort: 0.0}}"
+-0.7 to 0.15
+
+
+
+
+ros2 control load_controller gripper_action_controller
+ros2 control set_controller_state gripper_action_controller active
+ros2 run joint_state_publisher_gui joint_state_publisher_gui
+
