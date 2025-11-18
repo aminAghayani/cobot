@@ -12,7 +12,7 @@
             "environment": [
                 {
                     "name": "LD_LIBRARY_PATH",
-                    "value": "/opt/ros/humble/lib:${workspaceFolder}/install/lib"
+                    "value": "/opt/ros/jazzy/lib:${workspaceFolder}/install/lib"
                 }
             ],
             "MIMode": "gdb",

@@ -1,10 +1,10 @@
 {
     "configurations": [
         {
-            "name": "ROS2 Humble",
+            "name": "ROS2 Jazzy",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/opt/ros/humble/include/**",
+                "/opt/ros/jazzy/include/**",
                 "${workspaceFolder}/install/**",
                 "${workspaceFolder}/build/**",
                 "/usr/include/**"

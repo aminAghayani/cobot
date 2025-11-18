@@ -10,8 +10,8 @@
  * @date December 15, 2024
  */
 
-#include <moveit/move_group_interface/move_group_interface.h>
-#include <moveit/planning_scene_interface/planning_scene_interface.h>
+#include <moveit/move_group_interface/move_group_interface.hpp>
+#include <moveit/planning_scene_interface/planning_scene_interface.hpp>
 #include <moveit_visual_tools/moveit_visual_tools.h>
 
 #include <geometry_msgs/msg/pose_stamped.hpp>
@@ -229,7 +229,7 @@ int main(int argc, char * argv[])
   if (success)
   {
 	// Visualize the planned trajectory in RViz
-    draw_trajectory_tool_path(plan.trajectory_);
+    draw_trajectory_tool_path(plan.trajectory);
 
     // Trigger the visualization update
     moveit_visual_tools.trigger();

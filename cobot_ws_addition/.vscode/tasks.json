@@ -4,7 +4,7 @@
         {
             "label": "colcon build",
             "type": "shell",
-            "command": "colcon build --symlink-install",
+            "command": "colcon build",
             "options": {
                 "cwd": "${workspaceFolder}"
             },
@@ -17,7 +17,7 @@
         {
             "label": "source ROS 2 setup",
             "type": "shell",
-            "command": "source /opt/ros/humble/setup.bash && source install/setup.bash",
+            "command": "source /opt/ros/jazzy/setup.bash && source install/setup.bash",
             "options": {
                 "cwd": "${workspaceFolder}"
             }
