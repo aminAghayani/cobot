@@ -1,9 +1,0 @@
-/home/amin/cobot/cobot_ws/build/mycobot_280_gazebo_jazzy/CMakeFiles/uninstall.dir
-/home/amin/cobot/cobot_ws/build/mycobot_280_gazebo_jazzy/CMakeFiles/mycobot_280_gazebo_jazzy_uninstall.dir
-/home/amin/cobot/cobot_ws/build/mycobot_280_gazebo_jazzy/CMakeFiles/test.dir
-/home/amin/cobot/cobot_ws/build/mycobot_280_gazebo_jazzy/CMakeFiles/edit_cache.dir
-/home/amin/cobot/cobot_ws/build/mycobot_280_gazebo_jazzy/CMakeFiles/rebuild_cache.dir
-/home/amin/cobot/cobot_ws/build/mycobot_280_gazebo_jazzy/CMakeFiles/list_install_components.dir
-/home/amin/cobot/cobot_ws/build/mycobot_280_gazebo_jazzy/CMakeFiles/install.dir
-/home/amin/cobot/cobot_ws/build/mycobot_280_gazebo_jazzy/CMakeFiles/install/local.dir
-/home/amin/cobot/cobot_ws/build/mycobot_280_gazebo_jazzy/CMakeFiles/install/strip.dir

@@ -1,9 +1,0 @@
-/home/amin/cobot/cobot_ws/build/pro450_moveit2/CMakeFiles/uninstall.dir
-/home/amin/cobot/cobot_ws/build/pro450_moveit2/CMakeFiles/pro450_moveit2_uninstall.dir
-/home/amin/cobot/cobot_ws/build/pro450_moveit2/CMakeFiles/test.dir
-/home/amin/cobot/cobot_ws/build/pro450_moveit2/CMakeFiles/edit_cache.dir
-/home/amin/cobot/cobot_ws/build/pro450_moveit2/CMakeFiles/rebuild_cache.dir
-/home/amin/cobot/cobot_ws/build/pro450_moveit2/CMakeFiles/list_install_components.dir
-/home/amin/cobot/cobot_ws/build/pro450_moveit2/CMakeFiles/install.dir
-/home/amin/cobot/cobot_ws/build/pro450_moveit2/CMakeFiles/install/local.dir
-/home/amin/cobot/cobot_ws/build/pro450_moveit2/CMakeFiles/install/strip.dir
