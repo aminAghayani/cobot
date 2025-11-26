@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5ff5c5f5ea0483722e44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "mycobot_pro450_interfaces__py",
+					"jsonFile" : "directory-mycobot_pro450_interfaces__py-4c24809d9563eb07b0db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/amin/cobot/cobot_ws/build/mycobot_pro450_interfaces/mycobot_pro450_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mycobot_pro450_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mycobot_pro450_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mycobot_pro450_interfaces_egg-18d7fd1a5f39192b792f.json",
+					"name" : "ament_cmake_python_build_mycobot_pro450_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mycobot_pro450_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mycobot_pro450_interfaces-83ba2f4fdc6efdad1a3a.json",
+					"name" : "ament_cmake_python_copy_mycobot_pro450_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_pro450_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_pro450_interfaces-5eb7da1a2e597a04daa2.json",
+					"name" : "mycobot_pro450_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_pro450_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_pro450_interfaces__cpp-59cdd81042855af1d7ff.json",
+					"name" : "mycobot_pro450_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mycobot_pro450_interfaces__py::@0f1123f339b72fda6d09",
+					"jsonFile" : "target-mycobot_pro450_interfaces__py-1c024e444804ff5379c2.json",
+					"name" : "mycobot_pro450_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_pro450_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_pro450_interfaces__rosidl_generator_c-d067d7097f27ba021c53.json",
+					"name" : "mycobot_pro450_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_pro450_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_pro450_interfaces__rosidl_generator_py-1f24a0f6488c1d624eec.json",
+					"name" : "mycobot_pro450_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_pro450_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_pro450_interfaces__rosidl_generator_type_description-cdbb757b06f568c4a62d.json",
+					"name" : "mycobot_pro450_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_pro450_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_pro450_interfaces__rosidl_typesupport_c-ddcb3a8deca4bfcc4bf0.json",
+					"name" : "mycobot_pro450_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_pro450_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_pro450_interfaces__rosidl_typesupport_cpp-59b932bd3f0ef68117a4.json",
+					"name" : "mycobot_pro450_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_pro450_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_pro450_interfaces__rosidl_typesupport_fastrtps_c-9f4ebd37a73411bee74c.json",
+					"name" : "mycobot_pro450_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_pro450_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_pro450_interfaces__rosidl_typesupport_fastrtps_cpp-3e7d81d62abf29899d31.json",
+					"name" : "mycobot_pro450_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_pro450_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_pro450_interfaces__rosidl_typesupport_introspection_c-981ad07f03214280e077.json",
+					"name" : "mycobot_pro450_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_pro450_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_pro450_interfaces__rosidl_typesupport_introspection_cpp-dd10a40e07ef8c21860b.json",
+					"name" : "mycobot_pro450_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_pro450_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_pro450_interfaces_s__rosidl_typesupport_c-226ce9eeb638f91e6254.json",
+					"name" : "mycobot_pro450_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_pro450_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_pro450_interfaces_s__rosidl_typesupport_fastrtps_c-0d3f70cd82e9a5766de7.json",
+					"name" : "mycobot_pro450_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_pro450_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_pro450_interfaces_s__rosidl_typesupport_introspection_c-0971eee487cc5b7f0e0d.json",
+					"name" : "mycobot_pro450_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_pro450_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_pro450_interfaces_uninstall-bb31bb0b29698fbf7b97.json",
+					"name" : "mycobot_pro450_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bf7fc53ef168956713eb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/amin/cobot/cobot_ws/build/mycobot_pro450_interfaces",
+		"source" : "/home/amin/cobot/cobot_ws/src/mycobot_ros2/mycobot_pro/mycobot_pro450_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,51 @@
+[12.259s] Invoking command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/mycobot_280/mycobot_280_moveit2_control': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mycobot_280_moveit2_control build --build-base /home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/build install --record /home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/install.log --single-version-externally-managed install_data
+[13.704s] running egg_info
+[13.704s] creating ../../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info
+[13.737s] writing ../../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/PKG-INFO
+[13.738s] writing dependency_links to ../../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/dependency_links.txt
+[13.738s] writing entry points to ../../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/entry_points.txt
+[13.739s] writing requirements to ../../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/requires.txt
+[13.739s] writing top-level names to ../../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/top_level.txt
+[13.740s] writing manifest file '../../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/SOURCES.txt'
+[13.821s] reading manifest file '../../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/SOURCES.txt'
+[13.821s] adding license file 'LICENSE'
+[13.823s] writing manifest file '../../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/SOURCES.txt'
+[13.823s] running build
+[13.823s] running build_py
+[13.823s] creating /home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/build
+[13.824s] creating /home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/build/lib
+[13.824s] creating /home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control
+[13.824s] copying mycobot_280_moveit2_control/sync_plan_rdkx5.py -> /home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control
+[13.824s] copying mycobot_280_moveit2_control/sync_plan_arduino.py -> /home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control
+[13.824s] copying mycobot_280_moveit2_control/__init__.py -> /home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control
+[13.824s] copying mycobot_280_moveit2_control/test.py -> /home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control
+[13.824s] copying mycobot_280_moveit2_control/sync_plan.py -> /home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control
+[13.825s] running install
+[13.840s] running install_lib
+[13.878s] creating /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control
+[13.879s] copying /home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control/sync_plan_rdkx5.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control
+[13.879s] copying /home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control/sync_plan_arduino.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control
+[13.879s] copying /home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control/__init__.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control
+[13.881s] copying /home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control/test.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control
+[13.881s] copying /home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control/sync_plan.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control
+[13.881s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control/sync_plan_rdkx5.py to sync_plan_rdkx5.cpython-312.pyc
+[13.881s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control/sync_plan_arduino.py to sync_plan_arduino.cpython-312.pyc
+[13.882s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control/__init__.py to __init__.cpython-312.pyc
+[13.883s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control/test.py to test.cpython-312.pyc
+[13.883s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control/sync_plan.py to sync_plan.cpython-312.pyc
+[13.885s] running install_data
+[13.885s] creating /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/share/ament_index
+[13.885s] creating /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/share/ament_index/resource_index
+[13.885s] creating /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/share/ament_index/resource_index/packages
+[13.886s] copying resource/mycobot_280_moveit2_control -> /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/share/ament_index/resource_index/packages
+[13.886s] copying package.xml -> /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/share/mycobot_280_moveit2_control
+[13.886s] creating /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/share/mycobot_280_moveit2_control/launch
+[13.886s] creating /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/share/mycobot_280_moveit2_control/config
+[13.886s] running install_egg_info
+[13.924s] Copying ../../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info to /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control-0.0.0-py3.12.egg-info
+[13.931s] running install_scripts
+[14.204s] Installing sync_plan script to /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/lib/mycobot_280_moveit2_control
+[14.205s] Installing sync_plan_arduino script to /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/lib/mycobot_280_moveit2_control
+[14.205s] Installing sync_plan_rdkx5 script to /home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/lib/mycobot_280_moveit2_control
+[14.205s] writing list of installed files to '/home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/install.log'
+[14.769s] Invoked command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/mycobot_280/mycobot_280_moveit2_control' returned '0': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/mycobot_280_moveit2_control/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mycobot_280_moveit2_control build --build-base /home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/build install --record /home/amin/cobot/cobot_ws/build/mycobot_280_moveit2_control/install.log --single-version-externally-managed install_data

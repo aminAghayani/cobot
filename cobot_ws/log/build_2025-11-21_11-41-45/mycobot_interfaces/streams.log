@@ -1,0 +1,623 @@
+[0.244s] Invoking command in '/home/amin/cobot/cobot_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amin/cobot/cobot_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces -DCMAKE_INSTALL_PREFIX=/home/amin/cobot/cobot_ws/install/mycobot_interfaces
+[0.311s] -- The C compiler identification is GNU 13.3.0
+[0.369s] -- The CXX compiler identification is GNU 13.3.0
+[0.388s] -- Detecting C compiler ABI info
+[0.486s] -- Detecting C compiler ABI info - done
+[0.496s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.496s] -- Detecting C compile features
+[0.496s] -- Detecting C compile features - done
+[0.506s] -- Detecting CXX compiler ABI info
+[0.617s] -- Detecting CXX compiler ABI info - done
+[0.634s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.635s] -- Detecting CXX compile features
+[0.636s] -- Detecting CXX compile features - done
+[0.642s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.857s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.019s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.026s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.090s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.142s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.147s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.150s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.014s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.624s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.383s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.390s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.560s] -- Found PythonExtra: /usr/bin/python3  
+[4.272s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.352s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.412s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.416s] -- Added test 'lint_cmake' to check CMake code style
+[4.419s] -- Added test 'xmllint' to check XML markup files
+[4.425s] -- Configuring done (4.2s)
+[4.562s] -- Generating done (0.1s)
+[4.594s] -- Build files have been written to: /home/amin/cobot/cobot_ws/build/mycobot_interfaces
+[4.619s] Invoked command in '/home/amin/cobot/cobot_ws/build/mycobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amin/cobot/cobot_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces -DCMAKE_INSTALL_PREFIX=/home/amin/cobot/cobot_ws/install/mycobot_interfaces
+[4.620s] Invoking command in '/home/amin/cobot/cobot_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amin/cobot/cobot_ws/build/mycobot_interfaces -- -j8 -l8
+[4.784s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.794s] [  1%] Built target ament_cmake_python_copy_mycobot_interfaces
+[5.258s] running egg_info
+[5.259s] creating mycobot_interfaces.egg-info
+[5.295s] writing mycobot_interfaces.egg-info/PKG-INFO
+[5.296s] writing dependency_links to mycobot_interfaces.egg-info/dependency_links.txt
+[5.296s] writing top-level names to mycobot_interfaces.egg-info/top_level.txt
+[5.296s] writing manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+[5.443s] reading manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+[5.444s] writing manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+[5.512s] [  1%] Built target mycobot_interfaces__rosidl_generator_type_description
+[5.519s] [  1%] Built target ament_cmake_python_build_mycobot_interfaces_egg
+[5.555s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.589s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.645s] [  2%] Built target mycobot_interfaces__cpp
+[9.230s] [  3%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_angles__type_support.c.o[0m
+[9.240s] [  3%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_angles__description.c.o[0m
+[9.241s] [  4%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_angles__functions.c.o[0m
+[9.251s] [  4%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_coords__description.c.o[0m
+[9.258s] [  5%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_coords__type_support.c.o[0m
+[9.262s] [  6%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_set_angles__functions.c.o[0m
+[9.271s] [  6%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_set_angles__description.c.o[0m
+[9.273s] [  7%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_coords__functions.c.o[0m
+[9.366s] [  8%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_set_coords__description.c.o[0m
+[9.399s] [  9%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support.c.o[0m
+[9.399s] [  9%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_set_coords__functions.c.o[0m
+[9.420s] [ 10%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_set_coords__type_support.c.o[0m
+[9.448s] [ 11%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_gripper_status__description.c.o[0m
+[9.525s] [ 11%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_gripper_status__functions.c.o[0m
+[9.527s] [ 12%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_gripper_status__type_support.c.o[0m
+[9.544s] [ 13%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_pump_status__description.c.o[0m
+[9.568s] [ 13%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_pump_status__functions.c.o[0m
+[9.611s] [ 13%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/get_angles__functions.c.o[0m
+[9.689s] [ 14%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_pump_status__type_support.c.o[0m
+[9.695s] [ 15%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/get_angles__type_support.c.o[0m
+[9.698s] [ 16%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/get_angles__description.c.o[0m
+[9.746s] [ 17%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/set_angles__description.c.o[0m
+[9.746s] [ 17%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/set_angles__type_support.c.o[0m
+[9.787s] [ 18%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/set_angles__functions.c.o[0m
+[9.873s] [ 19%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/get_coords__description.c.o[0m
+[9.932s] [ 20%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/get_coords__functions.c.o[0m
+[9.992s] [ 21%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/set_coords__description.c.o[0m
+[10.011s] [ 21%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/get_coords__type_support.c.o[0m
+[10.032s] [ 22%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/set_coords__functions.c.o[0m
+[10.069s] [ 22%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/set_coords__type_support.c.o[0m
+[10.196s] [ 23%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/gripper_status__description.c.o[0m
+[10.271s] [ 24%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/gripper_status__functions.c.o[0m
+[10.284s] [ 25%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/gripper_status__type_support.c.o[0m
+[10.288s] [ 25%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/pump_status__description.c.o[0m
+[10.312s] [ 26%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/pump_status__functions.c.o[0m
+[10.354s] [ 27%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/pump_status__type_support.c.o[0m
+[10.586s] [ 27%] [32m[1mLinking C shared library libmycobot_interfaces__rosidl_generator_c.so[0m
+[10.908s] [ 27%] Built target mycobot_interfaces__rosidl_generator_c
+[10.952s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.958s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.964s] [ 28%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.977s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.977s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.980s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.965s] [ 32%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/msg/detail/mycobot_coords__type_support.cpp.o[0m
+[12.966s] [ 32%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support.cpp.o[0m
+[12.995s] [ 33%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/msg/detail/mycobot_angles__type_support.cpp.o[0m
+[14.154s] [ 33%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/msg/mycobot_angles__type_support.cpp.o[0m
+[14.445s] [ 34%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/msg/mycobot_coords__type_support.cpp.o[0m
+[14.613s] [ 35%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/msg/mycobot_set_angles__type_support.cpp.o[0m
+[14.927s] [ 35%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/msg/mycobot_set_coords__type_support.cpp.o[0m
+[15.042s] [ 36%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/msg/mycobot_gripper_status__type_support.cpp.o[0m
+[15.057s] [ 37%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/msg/mycobot_angles__type_support.cpp.o[0m
+[15.115s] [ 38%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/msg/mycobot_pump_status__type_support.cpp.o[0m
+[15.191s] [ 39%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/msg/mycobot_coords__type_support.cpp.o[0m
+[15.351s] [ 40%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/srv/get_angles__type_support.cpp.o[0m
+[15.524s] [ 41%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/msg/detail/mycobot_set_coords__type_support.cpp.o[0m
+[15.784s] [ 41%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/srv/set_angles__type_support.cpp.o[0m
+[16.254s] [ 42%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/srv/get_coords__type_support.cpp.o[0m
+[16.401s] [ 43%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/msg/detail/mycobot_gripper_status__type_support.cpp.o[0m
+[16.555s] [ 44%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/srv/set_coords__type_support.cpp.o[0m
+[16.771s] [ 44%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/srv/gripper_status__type_support.cpp.o[0m
+[17.138s] [ 45%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/srv/pump_status__type_support.cpp.o[0m
+[17.501s] [ 46%] [32m[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_c.so[0m
+[17.609s] [ 46%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/msg/detail/mycobot_pump_status__type_support.cpp.o[0m
+[17.613s] [ 46%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/msg/detail/mycobot_angles__type_support.c.o[0m
+[17.687s] [ 47%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/msg/mycobot_set_angles__type_support.cpp.o[0m
+[17.819s] [ 48%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/msg/detail/mycobot_coords__type_support.c.o[0m
+[17.821s] [ 48%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/msg/mycobot_set_coords__type_support.cpp.o[0m
+[17.822s] [ 48%] Built target mycobot_interfaces__rosidl_typesupport_c
+[17.872s] [ 49%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/srv/detail/get_angles__type_support.cpp.o[0m
+[18.173s] [ 50%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support.c.o[0m
+[18.289s] [ 51%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/srv/detail/set_angles__type_support.cpp.o[0m
+[18.337s] [ 51%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/msg/detail/mycobot_set_coords__type_support.c.o[0m
+[18.354s] [ 52%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/msg/mycobot_gripper_status__type_support.cpp.o[0m
+[18.653s] [ 53%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/msg/detail/mycobot_gripper_status__type_support.c.o[0m
+[18.981s] [ 54%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/msg/detail/mycobot_pump_status__type_support.c.o[0m
+[19.027s] [ 55%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/msg/mycobot_pump_status__type_support.cpp.o[0m
+[19.276s] [ 55%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/srv/detail/get_angles__type_support.c.o[0m
+[19.517s] [ 55%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/srv/get_angles__type_support.cpp.o[0m
+[19.646s] [ 56%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/srv/detail/get_coords__type_support.cpp.o[0m
+[19.729s] [ 57%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/srv/detail/set_angles__type_support.c.o[0m
+[20.283s] [ 58%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/srv/set_angles__type_support.cpp.o[0m
+[20.307s] [ 59%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/srv/detail/get_coords__type_support.c.o[0m
+[20.512s] [ 60%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/srv/detail/set_coords__type_support.c.o[0m
+[20.757s] [ 60%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/srv/detail/gripper_status__type_support.c.o[0m
+[21.046s] [ 61%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/srv/get_coords__type_support.cpp.o[0m
+[21.174s] [ 61%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/srv/detail/set_coords__type_support.cpp.o[0m
+[21.332s] [ 62%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/srv/detail/pump_status__type_support.c.o[0m
+[21.807s] [ 63%] [32m[1mLinking C shared library libmycobot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[21.840s] [ 64%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/srv/detail/gripper_status__type_support.cpp.o[0m
+[21.904s] [ 64%] Built target mycobot_interfaces__rosidl_typesupport_introspection_c
+[21.923s] [ 64%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/srv/set_coords__type_support.cpp.o[0m
+[23.008s] [ 65%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/srv/detail/pump_status__type_support.cpp.o[0m
+[23.049s] [ 66%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/srv/gripper_status__type_support.cpp.o[0m
+[23.253s] [ 67%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/srv/pump_status__type_support.cpp.o[0m
+[23.770s] [ 68%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/msg/detail/dds_fastrtps/mycobot_angles__type_support.cpp.o[0m
+[24.574s] [ 69%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/msg/detail/mycobot_angles__type_support_c.cpp.o[0m
+[25.520s] [ 70%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/msg/detail/mycobot_coords__type_support_c.cpp.o[0m
+[26.136s] [ 70%] [32m[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[26.163s] [ 70%] [32m[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_cpp.so[0m
+[26.403s] [ 70%] Built target mycobot_interfaces__rosidl_typesupport_cpp
+[26.779s] [ 70%] Built target mycobot_interfaces__rosidl_typesupport_introspection_cpp
+[27.289s] [ 70%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support_c.cpp.o[0m
+[27.525s] [ 71%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/srv/detail/dds_fastrtps/get_angles__type_support.cpp.o[0m
+[28.652s] [ 72%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/msg/detail/mycobot_set_coords__type_support_c.cpp.o[0m
+[30.814s] [ 72%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/srv/detail/dds_fastrtps/set_angles__type_support.cpp.o[0m
+[31.591s] [ 73%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/msg/detail/mycobot_gripper_status__type_support_c.cpp.o[0m
+[33.874s] [ 74%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/srv/detail/dds_fastrtps/get_coords__type_support.cpp.o[0m
+[34.016s] [ 74%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/msg/detail/mycobot_pump_status__type_support_c.cpp.o[0m
+[35.483s] [ 75%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/srv/detail/get_angles__type_support_c.cpp.o[0m
+[36.212s] [ 76%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/srv/detail/dds_fastrtps/set_coords__type_support.cpp.o[0m
+[36.623s] [ 77%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/srv/detail/set_angles__type_support_c.cpp.o[0m
+[37.361s] [ 78%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/srv/detail/dds_fastrtps/gripper_status__type_support.cpp.o[0m
+[37.696s] [ 78%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/srv/detail/get_coords__type_support_c.cpp.o[0m
+[38.618s] [ 78%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/srv/detail/dds_fastrtps/pump_status__type_support.cpp.o[0m
+[38.637s] [ 79%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/srv/detail/set_coords__type_support_c.cpp.o[0m
+[39.860s] [ 80%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/srv/detail/gripper_status__type_support_c.cpp.o[0m
+[39.922s] [ 81%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/msg/detail/dds_fastrtps/mycobot_pump_status__type_support.cpp.o[0m
+[40.775s] [ 81%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/srv/detail/pump_status__type_support_c.cpp.o[0m
+[40.841s] [ 81%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/msg/detail/dds_fastrtps/mycobot_gripper_status__type_support.cpp.o[0m
+[41.641s] [ 82%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/msg/detail/dds_fastrtps/mycobot_set_coords__type_support.cpp.o[0m
+[41.828s] [ 83%] [32m[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[42.008s] [ 83%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_c
+[42.466s] [ 84%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/msg/detail/dds_fastrtps/mycobot_set_angles__type_support.cpp.o[0m
+[43.000s] [ 84%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/msg/detail/dds_fastrtps/mycobot_coords__type_support.cpp.o[0m
+[43.436s] [ 85%] [32m[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[43.521s] [ 85%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_cpp
+[43.541s] [ 85%] Built target mycobot_interfaces
+[43.561s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[45.330s] [ 86%] Built target mycobot_interfaces__py
+[45.350s] [ 87%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/msg/_mycobot_angles_s.c.o[0m
+[45.468s] [ 88%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/srv/_set_angles_s.c.o[0m
+[45.613s] [ 89%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/srv/_get_coords_s.c.o[0m
+[45.766s] [ 89%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/srv/_set_coords_s.c.o[0m
+[45.908s] [ 90%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/srv/_gripper_status_s.c.o[0m
+[46.053s] [ 91%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/srv/_pump_status_s.c.o[0m
+[46.198s] [ 92%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/srv/_get_angles_s.c.o[0m
+[46.336s] [ 92%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/msg/_mycobot_pump_status_s.c.o[0m
+[46.451s] [ 93%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/msg/_mycobot_gripper_status_s.c.o[0m
+[46.562s] [ 94%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/msg/_mycobot_set_coords_s.c.o[0m
+[46.682s] [ 94%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/msg/_mycobot_set_angles_s.c.o[0m
+[46.799s] [ 95%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/msg/_mycobot_coords_s.c.o[0m
+[46.920s] [ 95%] [32m[1mLinking C shared library libmycobot_interfaces__rosidl_generator_py.so[0m
+[46.966s] [ 95%] Built target mycobot_interfaces__rosidl_generator_py
+[46.987s] [ 95%] [32mBuilding C object CMakeFiles/mycobot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[47.160s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[47.191s] [ 96%] Built target mycobot_interfaces_s__rosidl_typesupport_fastrtps_c
+[47.211s] [ 97%] [32mBuilding C object CMakeFiles/mycobot_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[47.375s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_c.so[0m
+[47.406s] [ 98%] Built target mycobot_interfaces_s__rosidl_typesupport_c
+[47.426s] [ 99%] [32mBuilding C object CMakeFiles/mycobot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[47.592s] [100%] [32m[1mLinking C shared module rosidl_generator_py/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[47.645s] [100%] Built target mycobot_interfaces_s__rosidl_typesupport_introspection_c
+[47.667s] Invoked command in '/home/amin/cobot/cobot_ws/build/mycobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amin/cobot/cobot_ws/build/mycobot_interfaces -- -j8 -l8
+[47.669s] Invoking command in '/home/amin/cobot/cobot_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amin/cobot/cobot_ws/build/mycobot_interfaces
+[47.684s] -- Install configuration: ""
+[47.684s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/ament_index/resource_index/rosidl_interfaces/mycobot_interfaces
+[47.684s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotAngles.json
+[47.685s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotCoords.json
+[47.685s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotSetAngles.json
+[47.685s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotSetCoords.json
+[47.685s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotGripperStatus.json
+[47.685s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotPumpStatus.json
+[47.686s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetAngles.json
+[47.686s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetAngles.json
+[47.686s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetCoords.json
+[47.686s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetCoords.json
+[47.686s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GripperStatus.json
+[47.686s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/PumpStatus.json
+[47.687s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces
+[47.687s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv
+[47.687s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/gripper_status.h
+[47.687s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail
+[47.687s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__type_support.h
+[47.687s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__description.c
+[47.688s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__functions.h
+[47.688s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__struct.h
+[47.688s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__functions.h
+[47.688s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__type_support.c
+[47.688s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__type_support.c
+[47.688s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__description.c
+[47.688s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__struct.h
+[47.688s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__type_support.h
+[47.689s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__functions.c
+[47.689s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__type_support.c
+[47.689s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__type_support.c
+[47.689s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__type_support.h
+[47.689s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__struct.h
+[47.689s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__struct.h
+[47.689s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__description.c
+[47.689s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__description.c
+[47.689s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__functions.h
+[47.690s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__type_support.c
+[47.690s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__functions.h
+[47.690s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__type_support.c
+[47.690s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__functions.c
+[47.690s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__functions.c
+[47.690s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__description.c
+[47.690s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__type_support.h
+[47.690s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__type_support.h
+[47.691s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__functions.c
+[47.691s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__functions.c
+[47.691s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__description.c
+[47.691s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__functions.h
+[47.691s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__functions.c
+[47.691s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__struct.h
+[47.691s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__struct.h
+[47.691s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__functions.h
+[47.692s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__type_support.h
+[47.692s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/get_coords.h
+[47.692s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/get_angles.h
+[47.692s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/pump_status.h
+[47.692s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/set_angles.h
+[47.692s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/set_coords.h
+[47.692s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg
+[47.692s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail
+[47.693s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__functions.c
+[47.693s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__description.c
+[47.693s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__type_support.h
+[47.693s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__functions.c
+[47.693s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__type_support.h
+[47.693s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__struct.h
+[47.693s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__type_support.h
+[47.693s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__description.c
+[47.694s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__type_support.h
+[47.694s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__functions.h
+[47.694s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support.c
+[47.694s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__struct.h
+[47.694s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__type_support.c
+[47.694s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__functions.c
+[47.694s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__functions.h
+[47.694s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__functions.h
+[47.694s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__functions.h
+[47.695s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__type_support.c
+[47.695s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__type_support.c
+[47.695s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__functions.h
+[47.695s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__type_support.c
+[47.695s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__description.c
+[47.695s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__type_support.c
+[47.695s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__struct.h
+[47.695s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__functions.h
+[47.696s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__struct.h
+[47.696s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__description.c
+[47.696s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__functions.c
+[47.696s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__functions.c
+[47.696s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__functions.c
+[47.696s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__struct.h
+[47.696s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__type_support.h
+[47.696s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support.h
+[47.696s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__description.c
+[47.697s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__struct.h
+[47.697s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__description.c
+[47.697s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[47.697s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_set_angles.h
+[47.697s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_pump_status.h
+[47.697s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_coords.h
+[47.697s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_angles.h
+[47.697s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_gripper_status.h
+[47.697s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_set_coords.h
+[47.697s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/library_path.sh
+[47.698s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/library_path.dsv
+[47.698s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_generator_c.so
+[47.698s] -- Set non-toolchain portion of runtime path of "/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_generator_c.so" to ""
+[47.698s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces
+[47.698s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv
+[47.698s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail
+[47.698s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__rosidl_typesupport_fastrtps_c.h
+[47.698s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__rosidl_typesupport_fastrtps_c.h
+[47.698s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__rosidl_typesupport_fastrtps_c.h
+[47.699s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__rosidl_typesupport_fastrtps_c.h
+[47.699s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__rosidl_typesupport_fastrtps_c.h
+[47.699s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__rosidl_typesupport_fastrtps_c.h
+[47.699s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg
+[47.699s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail
+[47.699s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__rosidl_typesupport_fastrtps_c.h
+[47.699s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__rosidl_typesupport_fastrtps_c.h
+[47.699s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__rosidl_typesupport_fastrtps_c.h
+[47.699s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__rosidl_typesupport_fastrtps_c.h
+[47.700s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__rosidl_typesupport_fastrtps_c.h
+[47.700s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__rosidl_typesupport_fastrtps_c.h
+[47.700s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[47.700s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[47.700s] -- Set non-toolchain portion of runtime path of "/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[47.700s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces
+[47.700s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv
+[47.700s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail
+[47.700s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__type_support.c
+[47.700s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__type_support.c
+[47.701s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__rosidl_typesupport_introspection_c.h
+[47.701s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__type_support.c
+[47.701s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__type_support.c
+[47.701s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__rosidl_typesupport_introspection_c.h
+[47.701s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__type_support.c
+[47.701s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__rosidl_typesupport_introspection_c.h
+[47.701s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__type_support.c
+[47.701s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_c.h
+[47.702s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__rosidl_typesupport_introspection_c.h
+[47.702s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__rosidl_typesupport_introspection_c.h
+[47.702s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg
+[47.702s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail
+[47.702s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__rosidl_typesupport_introspection_c.h
+[47.702s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support.c
+[47.703s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__rosidl_typesupport_introspection_c.h
+[47.703s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__rosidl_typesupport_introspection_c.h
+[47.703s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__type_support.c
+[47.703s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__type_support.c
+[47.703s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__type_support.c
+[47.703s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__type_support.c
+[47.703s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__type_support.c
+[47.704s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__rosidl_typesupport_introspection_c.h
+[47.704s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__rosidl_typesupport_introspection_c.h
+[47.704s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__rosidl_typesupport_introspection_c.h
+[47.704s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[47.704s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_introspection_c.so
+[47.704s] -- Set non-toolchain portion of runtime path of "/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[47.704s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_c.so
+[47.704s] -- Set non-toolchain portion of runtime path of "/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_c.so" to ""
+[47.705s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces
+[47.705s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv
+[47.705s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/set_angles.hpp
+[47.705s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/get_coords.hpp
+[47.705s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/gripper_status.hpp
+[47.705s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail
+[47.705s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__type_support.hpp
+[47.706s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__builder.hpp
+[47.706s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__type_support.hpp
+[47.706s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__traits.hpp
+[47.706s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__builder.hpp
+[47.706s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__struct.hpp
+[47.706s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__traits.hpp
+[47.706s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__struct.hpp
+[47.707s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__builder.hpp
+[47.707s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__builder.hpp
+[47.707s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__type_support.hpp
+[47.707s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__struct.hpp
+[47.707s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__builder.hpp
+[47.707s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__traits.hpp
+[47.707s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__type_support.hpp
+[47.708s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__traits.hpp
+[47.708s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__struct.hpp
+[47.708s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__traits.hpp
+[47.708s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__builder.hpp
+[47.708s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__type_support.hpp
+[47.708s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__type_support.hpp
+[47.708s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__traits.hpp
+[47.708s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__struct.hpp
+[47.709s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__struct.hpp
+[47.709s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/set_coords.hpp
+[47.709s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/get_angles.hpp
+[47.709s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/pump_status.hpp
+[47.709s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg
+[47.709s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_angles.hpp
+[47.709s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_gripper_status.hpp
+[47.710s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail
+[47.710s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__struct.hpp
+[47.710s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__struct.hpp
+[47.710s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support.hpp
+[47.710s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__builder.hpp
+[47.710s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__traits.hpp
+[47.710s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__struct.hpp
+[47.710s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__type_support.hpp
+[47.711s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__type_support.hpp
+[47.711s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__traits.hpp
+[47.711s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__type_support.hpp
+[47.711s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__struct.hpp
+[47.711s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__builder.hpp
+[47.711s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__builder.hpp
+[47.711s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__builder.hpp
+[47.711s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__traits.hpp
+[47.712s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__traits.hpp
+[47.712s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__type_support.hpp
+[47.712s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__struct.hpp
+[47.712s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__builder.hpp
+[47.712s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__type_support.hpp
+[47.712s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__struct.hpp
+[47.712s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__traits.hpp
+[47.713s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__traits.hpp
+[47.713s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__builder.hpp
+[47.713s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_set_coords.hpp
+[47.713s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_set_angles.hpp
+[47.713s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[47.713s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_coords.hpp
+[47.713s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_pump_status.hpp
+[47.714s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces
+[47.714s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv
+[47.714s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail
+[47.714s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__rosidl_typesupport_fastrtps_cpp.hpp
+[47.714s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__rosidl_typesupport_fastrtps_cpp.hpp
+[47.714s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/dds_fastrtps
+[47.714s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[47.714s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[47.715s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[47.715s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[47.715s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg
+[47.715s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail
+[47.715s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/dds_fastrtps
+[47.715s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[47.715s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[47.715s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[47.716s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__rosidl_typesupport_fastrtps_cpp.hpp
+[47.716s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[47.716s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__rosidl_typesupport_fastrtps_cpp.hpp
+[47.716s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[47.716s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[47.716s] -- Set non-toolchain portion of runtime path of "/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[47.716s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces
+[47.716s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv
+[47.717s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail
+[47.717s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__type_support.cpp
+[47.717s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__rosidl_typesupport_introspection_cpp.hpp
+[47.717s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__type_support.cpp
+[47.717s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__rosidl_typesupport_introspection_cpp.hpp
+[47.717s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__type_support.cpp
+[47.717s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__rosidl_typesupport_introspection_cpp.hpp
+[47.718s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__type_support.cpp
+[47.718s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__type_support.cpp
+[47.718s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__type_support.cpp
+[47.718s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__rosidl_typesupport_introspection_cpp.hpp
+[47.718s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_cpp.hpp
+[47.718s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__rosidl_typesupport_introspection_cpp.hpp
+[47.718s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg
+[47.718s] -- Up-to-date: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail
+[47.719s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__type_support.cpp
+[47.719s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support.cpp
+[47.719s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__type_support.cpp
+[47.719s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__rosidl_typesupport_introspection_cpp.hpp
+[47.719s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__type_support.cpp
+[47.719s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__type_support.cpp
+[47.719s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__rosidl_typesupport_introspection_cpp.hpp
+[47.720s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__rosidl_typesupport_introspection_cpp.hpp
+[47.720s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__rosidl_typesupport_introspection_cpp.hpp
+[47.720s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__rosidl_typesupport_introspection_cpp.hpp
+[47.720s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__rosidl_typesupport_introspection_cpp.hpp
+[47.720s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__type_support.cpp
+[47.720s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[47.720s] -- Set non-toolchain portion of runtime path of "/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[47.720s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_cpp.so
+[47.721s] -- Set non-toolchain portion of runtime path of "/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_cpp.so" to ""
+[47.721s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/pythonpath.sh
+[47.721s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/pythonpath.dsv
+[47.721s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces-0.0.0-py3.12.egg-info
+[47.721s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[47.722s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[47.722s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[47.722s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[47.722s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces
+[47.722s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_c.so
+[47.722s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_introspection_c.so
+[47.722s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[47.723s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/__init__.py
+[47.723s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv
+[47.723s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_get_coords_s.c
+[47.723s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_get_angles_s.c
+[47.723s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_get_angles.py
+[47.723s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_set_angles.py
+[47.723s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_pump_status.py
+[47.724s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_pump_status_s.c
+[47.724s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_set_coords.py
+[47.724s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/__init__.py
+[47.724s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_get_coords.py
+[47.724s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_gripper_status_s.c
+[47.724s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_gripper_status.py
+[47.724s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_set_coords_s.c
+[47.724s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_set_angles_s.c
+[47.724s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_c.c
+[47.724s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg
+[47.724s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/_mycobot_pump_status_s.c
+[47.725s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/_mycobot_set_angles_s.c
+[47.725s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/__init__.py
+[47.725s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/_mycobot_gripper_status.py
+[47.725s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/_mycobot_set_angles.py
+[47.725s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/_mycobot_set_coords_s.c
+[47.725s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/_mycobot_coords_s.c
+[47.725s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/_mycobot_angles_s.c
+[47.725s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/_mycobot_pump_status.py
+[47.725s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/_mycobot_set_coords.py
+[47.725s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/_mycobot_coords.py
+[47.725s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/_mycobot_angles.py
+[47.726s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/_mycobot_gripper_status_s.c
+[47.726s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[47.726s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[47.813s] Listing '/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces'...
+[47.813s] Compiling '/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/__init__.py'...
+[47.813s] Listing '/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg'...
+[47.813s] Compiling '/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/__init__.py'...
+[47.814s] Compiling '/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/_mycobot_angles.py'...
+[47.814s] Compiling '/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/_mycobot_coords.py'...
+[47.814s] Compiling '/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/_mycobot_gripper_status.py'...
+[47.814s] Compiling '/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/_mycobot_pump_status.py'...
+[47.814s] Compiling '/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/_mycobot_set_angles.py'...
+[47.814s] Compiling '/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/msg/_mycobot_set_coords.py'...
+[47.814s] Listing '/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv'...
+[47.814s] Compiling '/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/__init__.py'...
+[47.814s] Compiling '/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_get_angles.py'...
+[47.814s] Compiling '/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_get_coords.py'...
+[47.814s] Compiling '/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_gripper_status.py'...
+[47.814s] Compiling '/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_pump_status.py'...
+[47.814s] Compiling '/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_set_angles.py'...
+[47.814s] Compiling '/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/srv/_set_coords.py'...
+[47.819s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[47.819s] -- Set non-toolchain portion of runtime path of "/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[47.820s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_introspection_c.so
+[47.820s] -- Set non-toolchain portion of runtime path of "/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[47.820s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_c.so
+[47.820s] -- Set non-toolchain portion of runtime path of "/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_c.so" to ""
+[47.820s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_generator_py.so
+[47.821s] -- Set non-toolchain portion of runtime path of "/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_generator_py.so" to ""
+[47.821s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotAngles.idl
+[47.821s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotCoords.idl
+[47.821s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotSetAngles.idl
+[47.821s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotSetCoords.idl
+[47.821s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotGripperStatus.idl
+[47.821s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotPumpStatus.idl
+[47.821s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetAngles.idl
+[47.822s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetAngles.idl
+[47.822s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetCoords.idl
+[47.822s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetCoords.idl
+[47.822s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GripperStatus.idl
+[47.822s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/PumpStatus.idl
+[47.822s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotAngles.msg
+[47.822s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotCoords.msg
+[47.822s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotSetAngles.msg
+[47.822s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotSetCoords.msg
+[47.822s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotGripperStatus.msg
+[47.823s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotPumpStatus.msg
+[47.823s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetAngles.srv
+[47.823s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetAngles.srv
+[47.823s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetCoords.srv
+[47.823s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetCoords.srv
+[47.823s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GripperStatus.srv
+[47.823s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/PumpStatus.srv
+[47.823s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/ament_index/resource_index/package_run_dependencies/mycobot_interfaces
+[47.823s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/ament_index/resource_index/parent_prefix_path/mycobot_interfaces
+[47.824s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/ament_prefix_path.sh
+[47.824s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/ament_prefix_path.dsv
+[47.824s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/path.sh
+[47.824s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/path.dsv
+[47.824s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/local_setup.bash
+[47.824s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/local_setup.sh
+[47.824s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/local_setup.zsh
+[47.824s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/local_setup.dsv
+[47.824s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.dsv
+[47.825s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/ament_index/resource_index/packages/mycobot_interfaces
+[47.825s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_cExport.cmake
+[47.825s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[47.825s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[47.825s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[47.825s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[47.825s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[47.825s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_cExport.cmake
+[47.826s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[47.826s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_cppExport.cmake
+[47.826s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[47.826s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[47.826s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[47.826s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[47.826s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_cppExport.cmake
+[47.826s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[47.826s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_pyExport.cmake
+[47.827s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[47.827s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/rosidl_cmake-extras.cmake
+[47.827s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.827s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[47.827s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[47.827s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[47.827s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[47.827s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[47.828s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfacesConfig.cmake
+[47.828s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfacesConfig-version.cmake
+[47.828s] -- Installing: /home/amin/cobot/cobot_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.xml
+[47.830s] Invoked command in '/home/amin/cobot/cobot_ws/build/mycobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amin/cobot/cobot_ws/build/mycobot_interfaces

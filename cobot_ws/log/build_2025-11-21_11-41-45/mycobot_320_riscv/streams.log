@@ -1,0 +1,66 @@
+[2.420s] Invoking command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/mycobot_320/mycobot_320_riscv': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amin/cobot/cobot_ws/build/mycobot_320_riscv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mycobot_320_riscv build --build-base /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build install --record /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/install.log --single-version-externally-managed install_data
+[3.418s] running egg_info
+[3.420s] creating ../../../../build/mycobot_320_riscv/mycobot_320_riscv.egg-info
+[3.503s] writing ../../../../build/mycobot_320_riscv/mycobot_320_riscv.egg-info/PKG-INFO
+[3.503s] writing dependency_links to ../../../../build/mycobot_320_riscv/mycobot_320_riscv.egg-info/dependency_links.txt
+[3.503s] writing entry points to ../../../../build/mycobot_320_riscv/mycobot_320_riscv.egg-info/entry_points.txt
+[3.504s] writing requirements to ../../../../build/mycobot_320_riscv/mycobot_320_riscv.egg-info/requires.txt
+[3.504s] writing top-level names to ../../../../build/mycobot_320_riscv/mycobot_320_riscv.egg-info/top_level.txt
+[3.504s] writing manifest file '../../../../build/mycobot_320_riscv/mycobot_320_riscv.egg-info/SOURCES.txt'
+[3.677s] reading manifest file '../../../../build/mycobot_320_riscv/mycobot_320_riscv.egg-info/SOURCES.txt'
+[3.682s] adding license file 'LICENSE'
+[3.683s] writing manifest file '../../../../build/mycobot_320_riscv/mycobot_320_riscv.egg-info/SOURCES.txt'
+[3.683s] running build
+[3.683s] running build_py
+[3.683s] creating /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build
+[3.683s] creating /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build/lib
+[3.683s] creating /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build/lib/mycobot_320_riscv
+[3.684s] copying mycobot_320_riscv/listen_real.py -> /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build/lib/mycobot_320_riscv
+[3.684s] copying mycobot_320_riscv/listen_real_of_topic.py -> /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build/lib/mycobot_320_riscv
+[3.684s] copying mycobot_320_riscv/slider_control.py -> /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build/lib/mycobot_320_riscv
+[3.684s] copying mycobot_320_riscv/teleop_keyboard.py -> /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build/lib/mycobot_320_riscv
+[3.685s] copying mycobot_320_riscv/__init__.py -> /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build/lib/mycobot_320_riscv
+[3.688s] copying mycobot_320_riscv/follow_display.py -> /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build/lib/mycobot_320_riscv
+[3.690s] copying mycobot_320_riscv/simple_gui.py -> /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build/lib/mycobot_320_riscv
+[3.692s] running install
+[3.720s] running install_lib
+[3.809s] creating /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/python3.12/site-packages/mycobot_320_riscv
+[3.811s] copying /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build/lib/mycobot_320_riscv/listen_real.py -> /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/python3.12/site-packages/mycobot_320_riscv
+[3.811s] copying /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build/lib/mycobot_320_riscv/listen_real_of_topic.py -> /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/python3.12/site-packages/mycobot_320_riscv
+[3.811s] copying /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build/lib/mycobot_320_riscv/slider_control.py -> /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/python3.12/site-packages/mycobot_320_riscv
+[3.814s] copying /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build/lib/mycobot_320_riscv/teleop_keyboard.py -> /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/python3.12/site-packages/mycobot_320_riscv
+[3.814s] copying /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build/lib/mycobot_320_riscv/__init__.py -> /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/python3.12/site-packages/mycobot_320_riscv
+[3.814s] copying /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build/lib/mycobot_320_riscv/follow_display.py -> /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/python3.12/site-packages/mycobot_320_riscv
+[3.815s] copying /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build/lib/mycobot_320_riscv/simple_gui.py -> /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/python3.12/site-packages/mycobot_320_riscv
+[3.816s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/python3.12/site-packages/mycobot_320_riscv/listen_real.py to listen_real.cpython-312.pyc
+[3.822s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/python3.12/site-packages/mycobot_320_riscv/listen_real_of_topic.py to listen_real_of_topic.cpython-312.pyc
+[3.824s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/python3.12/site-packages/mycobot_320_riscv/slider_control.py to slider_control.cpython-312.pyc
+[3.824s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/python3.12/site-packages/mycobot_320_riscv/teleop_keyboard.py to teleop_keyboard.cpython-312.pyc
+[3.835s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/python3.12/site-packages/mycobot_320_riscv/__init__.py to __init__.cpython-312.pyc
+[3.835s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/python3.12/site-packages/mycobot_320_riscv/follow_display.py to follow_display.cpython-312.pyc
+[3.837s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/python3.12/site-packages/mycobot_320_riscv/simple_gui.py to simple_gui.cpython-312.pyc
+[3.846s] running install_data
+[3.847s] creating /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/share/ament_index
+[3.847s] creating /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/share/ament_index/resource_index
+[3.848s] creating /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/share/ament_index/resource_index/packages
+[3.848s] copying resource/mycobot_320_riscv -> /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/share/ament_index/resource_index/packages
+[3.849s] copying package.xml -> /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/share/mycobot_320_riscv
+[3.849s] creating /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/share/mycobot_320_riscv/launch
+[3.849s] copying launch/mycobot_follow.launch.py -> /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/share/mycobot_320_riscv/launch
+[3.850s] copying launch/teleop_keyboard.launch.py -> /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/share/mycobot_320_riscv/launch
+[3.850s] copying launch/simple_gui.launch.py -> /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/share/mycobot_320_riscv/launch
+[3.850s] copying launch/test.launch.py -> /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/share/mycobot_320_riscv/launch
+[3.851s] copying launch/slider_control.launch.py -> /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/share/mycobot_320_riscv/launch
+[3.851s] creating /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/share/mycobot_320_riscv/config
+[3.851s] copying config/mycobot_320_riscv.rviz -> /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/share/mycobot_320_riscv/config
+[3.852s] running install_egg_info
+[3.895s] Copying ../../../../build/mycobot_320_riscv/mycobot_320_riscv.egg-info to /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/python3.12/site-packages/mycobot_320_riscv-0.0.0-py3.12.egg-info
+[3.895s] running install_scripts
+[4.131s] Installing follow_display script to /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/mycobot_320_riscv
+[4.131s] Installing listen_real script to /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/mycobot_320_riscv
+[4.131s] Installing listen_real_of_topic script to /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/mycobot_320_riscv
+[4.131s] Installing simple_gui script to /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/mycobot_320_riscv
+[4.132s] Installing slider_control script to /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/mycobot_320_riscv
+[4.132s] Installing teleop_keyboard script to /home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/mycobot_320_riscv
+[4.132s] writing list of installed files to '/home/amin/cobot/cobot_ws/build/mycobot_320_riscv/install.log'
+[4.213s] Invoked command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/mycobot_320/mycobot_320_riscv' returned '0': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amin/cobot/cobot_ws/build/mycobot_320_riscv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/mycobot_320_riscv/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mycobot_320_riscv build --build-base /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/build install --record /home/amin/cobot/cobot_ws/build/mycobot_320_riscv/install.log --single-version-externally-managed install_data

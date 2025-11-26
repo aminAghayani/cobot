@@ -1,0 +1,27 @@
+[1.291s] Invoking command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/myArm/myarm_c650': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_communication:/home/amin/cobot/cobot_ws/install/mycobot_interfaces:/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amin/cobot/cobot_ws/build/myarm_c650/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/myarm_c650/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_communication/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/myarm_c650 build --build-base /home/amin/cobot/cobot_ws/build/myarm_c650/build install --record /home/amin/cobot/cobot_ws/build/myarm_c650/install.log --single-version-externally-managed install_data
+[1.488s] running egg_info
+[1.502s] writing ../../../../build/myarm_c650/myarm_c650.egg-info/PKG-INFO
+[1.502s] writing dependency_links to ../../../../build/myarm_c650/myarm_c650.egg-info/dependency_links.txt
+[1.503s] writing entry points to ../../../../build/myarm_c650/myarm_c650.egg-info/entry_points.txt
+[1.503s] writing requirements to ../../../../build/myarm_c650/myarm_c650.egg-info/requires.txt
+[1.503s] writing top-level names to ../../../../build/myarm_c650/myarm_c650.egg-info/top_level.txt
+[1.532s] reading manifest file '../../../../build/myarm_c650/myarm_c650.egg-info/SOURCES.txt'
+[1.532s] adding license file 'LICENSE'
+[1.532s] writing manifest file '../../../../build/myarm_c650/myarm_c650.egg-info/SOURCES.txt'
+[1.533s] running build
+[1.533s] running build_py
+[1.533s] running install
+[1.538s] running install_lib
+[1.553s] running install_data
+[1.553s] running install_egg_info
+[1.568s] removing '/home/amin/cobot/cobot_ws/install/myarm_c650/lib/python3.12/site-packages/myarm_c650-0.0.0-py3.12.egg-info' (and everything under it)
+[1.568s] Copying ../../../../build/myarm_c650/myarm_c650.egg-info to /home/amin/cobot/cobot_ws/install/myarm_c650/lib/python3.12/site-packages/myarm_c650-0.0.0-py3.12.egg-info
+[1.569s] running install_scripts
+[1.669s] Installing debug script to /home/amin/cobot/cobot_ws/install/myarm_c650/lib/myarm_c650
+[1.669s] Installing follow_display script to /home/amin/cobot/cobot_ws/install/myarm_c650/lib/myarm_c650
+[1.669s] Installing simple_gui script to /home/amin/cobot/cobot_ws/install/myarm_c650/lib/myarm_c650
+[1.669s] Installing slider_control script to /home/amin/cobot/cobot_ws/install/myarm_c650/lib/myarm_c650
+[1.669s] Installing teleop_keyboard script to /home/amin/cobot/cobot_ws/install/myarm_c650/lib/myarm_c650
+[1.669s] Installing test script to /home/amin/cobot/cobot_ws/install/myarm_c650/lib/myarm_c650
+[1.669s] writing list of installed files to '/home/amin/cobot/cobot_ws/build/myarm_c650/install.log'
+[1.699s] Invoked command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/myArm/myarm_c650' returned '0': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_communication:/home/amin/cobot/cobot_ws/install/mycobot_interfaces:/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amin/cobot/cobot_ws/build/myarm_c650/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/myarm_c650/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_communication/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/myarm_c650 build --build-base /home/amin/cobot/cobot_ws/build/myarm_c650/build install --record /home/amin/cobot/cobot_ws/build/myarm_c650/install.log --single-version-externally-managed install_data

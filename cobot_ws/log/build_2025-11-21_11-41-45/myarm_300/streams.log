@@ -1,0 +1,58 @@
+[2.028s] Invoking command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/myArm/myarm_300': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amin/cobot/cobot_ws/build/myarm_300/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/myarm_300/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/myarm_300 build --build-base /home/amin/cobot/cobot_ws/build/myarm_300/build install --record /home/amin/cobot/cobot_ws/build/myarm_300/install.log --single-version-externally-managed install_data
+[2.984s] running egg_info
+[2.985s] creating ../../../../build/myarm_300/myarm_300.egg-info
+[3.066s] writing ../../../../build/myarm_300/myarm_300.egg-info/PKG-INFO
+[3.067s] writing dependency_links to ../../../../build/myarm_300/myarm_300.egg-info/dependency_links.txt
+[3.067s] writing entry points to ../../../../build/myarm_300/myarm_300.egg-info/entry_points.txt
+[3.068s] writing requirements to ../../../../build/myarm_300/myarm_300.egg-info/requires.txt
+[3.075s] writing top-level names to ../../../../build/myarm_300/myarm_300.egg-info/top_level.txt
+[3.075s] writing manifest file '../../../../build/myarm_300/myarm_300.egg-info/SOURCES.txt'
+[3.225s] reading manifest file '../../../../build/myarm_300/myarm_300.egg-info/SOURCES.txt'
+[3.226s] adding license file 'LICENSE'
+[3.230s] writing manifest file '../../../../build/myarm_300/myarm_300.egg-info/SOURCES.txt'
+[3.230s] running build
+[3.230s] running build_py
+[3.230s] creating /home/amin/cobot/cobot_ws/build/myarm_300/build
+[3.230s] creating /home/amin/cobot/cobot_ws/build/myarm_300/build/lib
+[3.230s] creating /home/amin/cobot/cobot_ws/build/myarm_300/build/lib/myarm_300
+[3.231s] copying myarm_300/slider_control.py -> /home/amin/cobot/cobot_ws/build/myarm_300/build/lib/myarm_300
+[3.231s] copying myarm_300/teleop_keyboard.py -> /home/amin/cobot/cobot_ws/build/myarm_300/build/lib/myarm_300
+[3.231s] copying myarm_300/__init__.py -> /home/amin/cobot/cobot_ws/build/myarm_300/build/lib/myarm_300
+[3.231s] copying myarm_300/follow_display.py -> /home/amin/cobot/cobot_ws/build/myarm_300/build/lib/myarm_300
+[3.231s] copying myarm_300/simple_gui.py -> /home/amin/cobot/cobot_ws/build/myarm_300/build/lib/myarm_300
+[3.231s] running install
+[3.256s] running install_lib
+[3.310s] creating /home/amin/cobot/cobot_ws/install/myarm_300/lib/python3.12/site-packages/myarm_300
+[3.310s] copying /home/amin/cobot/cobot_ws/build/myarm_300/build/lib/myarm_300/slider_control.py -> /home/amin/cobot/cobot_ws/install/myarm_300/lib/python3.12/site-packages/myarm_300
+[3.310s] copying /home/amin/cobot/cobot_ws/build/myarm_300/build/lib/myarm_300/teleop_keyboard.py -> /home/amin/cobot/cobot_ws/install/myarm_300/lib/python3.12/site-packages/myarm_300
+[3.311s] copying /home/amin/cobot/cobot_ws/build/myarm_300/build/lib/myarm_300/__init__.py -> /home/amin/cobot/cobot_ws/install/myarm_300/lib/python3.12/site-packages/myarm_300
+[3.311s] copying /home/amin/cobot/cobot_ws/build/myarm_300/build/lib/myarm_300/follow_display.py -> /home/amin/cobot/cobot_ws/install/myarm_300/lib/python3.12/site-packages/myarm_300
+[3.311s] copying /home/amin/cobot/cobot_ws/build/myarm_300/build/lib/myarm_300/simple_gui.py -> /home/amin/cobot/cobot_ws/install/myarm_300/lib/python3.12/site-packages/myarm_300
+[3.312s] byte-compiling /home/amin/cobot/cobot_ws/install/myarm_300/lib/python3.12/site-packages/myarm_300/slider_control.py to slider_control.cpython-312.pyc
+[3.313s] byte-compiling /home/amin/cobot/cobot_ws/install/myarm_300/lib/python3.12/site-packages/myarm_300/teleop_keyboard.py to teleop_keyboard.cpython-312.pyc
+[3.317s] byte-compiling /home/amin/cobot/cobot_ws/install/myarm_300/lib/python3.12/site-packages/myarm_300/__init__.py to __init__.cpython-312.pyc
+[3.317s] byte-compiling /home/amin/cobot/cobot_ws/install/myarm_300/lib/python3.12/site-packages/myarm_300/follow_display.py to follow_display.cpython-312.pyc
+[3.319s] byte-compiling /home/amin/cobot/cobot_ws/install/myarm_300/lib/python3.12/site-packages/myarm_300/simple_gui.py to simple_gui.cpython-312.pyc
+[3.326s] running install_data
+[3.326s] creating /home/amin/cobot/cobot_ws/install/myarm_300/share/ament_index
+[3.326s] creating /home/amin/cobot/cobot_ws/install/myarm_300/share/ament_index/resource_index
+[3.327s] creating /home/amin/cobot/cobot_ws/install/myarm_300/share/ament_index/resource_index/packages
+[3.327s] copying resource/myarm_300 -> /home/amin/cobot/cobot_ws/install/myarm_300/share/ament_index/resource_index/packages
+[3.327s] copying package.xml -> /home/amin/cobot/cobot_ws/install/myarm_300/share/myarm_300
+[3.328s] creating /home/amin/cobot/cobot_ws/install/myarm_300/share/myarm_300/launch
+[3.328s] copying launch/mycobot_follow.launch.py -> /home/amin/cobot/cobot_ws/install/myarm_300/share/myarm_300/launch
+[3.328s] copying launch/teleop_keyboard.launch.py -> /home/amin/cobot/cobot_ws/install/myarm_300/share/myarm_300/launch
+[3.329s] copying launch/simple_gui.launch.py -> /home/amin/cobot/cobot_ws/install/myarm_300/share/myarm_300/launch
+[3.329s] copying launch/test.launch.py -> /home/amin/cobot/cobot_ws/install/myarm_300/share/myarm_300/launch
+[3.329s] copying launch/slider_control.launch.py -> /home/amin/cobot/cobot_ws/install/myarm_300/share/myarm_300/launch
+[3.330s] creating /home/amin/cobot/cobot_ws/install/myarm_300/share/myarm_300/config
+[3.330s] copying config/myarm_300.rviz -> /home/amin/cobot/cobot_ws/install/myarm_300/share/myarm_300/config
+[3.330s] running install_egg_info
+[3.369s] Copying ../../../../build/myarm_300/myarm_300.egg-info to /home/amin/cobot/cobot_ws/install/myarm_300/lib/python3.12/site-packages/myarm_300-0.0.0-py3.12.egg-info
+[3.371s] running install_scripts
+[3.638s] Installing follow_display script to /home/amin/cobot/cobot_ws/install/myarm_300/lib/myarm_300
+[3.639s] Installing simple_gui script to /home/amin/cobot/cobot_ws/install/myarm_300/lib/myarm_300
+[3.639s] Installing slider_control script to /home/amin/cobot/cobot_ws/install/myarm_300/lib/myarm_300
+[3.639s] Installing teleop_keyboard script to /home/amin/cobot/cobot_ws/install/myarm_300/lib/myarm_300
+[3.641s] writing list of installed files to '/home/amin/cobot/cobot_ws/build/myarm_300/install.log'
+[3.750s] Invoked command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/myArm/myarm_300' returned '0': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amin/cobot/cobot_ws/build/myarm_300/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/myarm_300/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/myarm_300 build --build-base /home/amin/cobot/cobot_ws/build/myarm_300/build install --record /home/amin/cobot/cobot_ws/build/myarm_300/install.log --single-version-externally-managed install_data

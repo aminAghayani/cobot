@@ -1,0 +1,50 @@
+[0.818s] Invoking command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/mypalletizer_260/mypalletizer_communication': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mypalletizer_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mypalletizer_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amin/cobot/cobot_ws/install/mypalletizer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amin/cobot/cobot_ws/build/mypalletizer_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mypalletizer_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mypalletizer_communication build --build-base /home/amin/cobot/cobot_ws/build/mypalletizer_communication/build install --record /home/amin/cobot/cobot_ws/build/mypalletizer_communication/install.log --single-version-externally-managed install_data
+[1.097s] running egg_info
+[1.097s] creating ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info
+[1.118s] writing ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/PKG-INFO
+[1.118s] writing dependency_links to ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/dependency_links.txt
+[1.118s] writing entry points to ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/entry_points.txt
+[1.119s] writing requirements to ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/requires.txt
+[1.119s] writing top-level names to ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/top_level.txt
+[1.119s] writing manifest file '../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/SOURCES.txt'
+[1.160s] reading manifest file '../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/SOURCES.txt'
+[1.161s] writing manifest file '../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/SOURCES.txt'
+[1.161s] running build
+[1.161s] running build_py
+[1.161s] creating /home/amin/cobot/cobot_ws/build/mypalletizer_communication/build
+[1.161s] creating /home/amin/cobot/cobot_ws/build/mypalletizer_communication/build/lib
+[1.161s] creating /home/amin/cobot/cobot_ws/build/mypalletizer_communication/build/lib/mypalletizer_communication
+[1.162s] copying mypalletizer_communication/__init__.py -> /home/amin/cobot/cobot_ws/build/mypalletizer_communication/build/lib/mypalletizer_communication
+[1.162s] copying mypalletizer_communication/mypalletizer_topics.py -> /home/amin/cobot/cobot_ws/build/mypalletizer_communication/build/lib/mypalletizer_communication
+[1.162s] copying mypalletizer_communication/mypalletizer_services.py -> /home/amin/cobot/cobot_ws/build/mypalletizer_communication/build/lib/mypalletizer_communication
+[1.162s] copying mypalletizer_communication/mypalletizer_topics_seeed.py -> /home/amin/cobot/cobot_ws/build/mypalletizer_communication/build/lib/mypalletizer_communication
+[1.162s] running install
+[1.168s] running install_lib
+[1.190s] creating /home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication
+[1.190s] copying /home/amin/cobot/cobot_ws/build/mypalletizer_communication/build/lib/mypalletizer_communication/__init__.py -> /home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication
+[1.190s] copying /home/amin/cobot/cobot_ws/build/mypalletizer_communication/build/lib/mypalletizer_communication/mypalletizer_topics.py -> /home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication
+[1.190s] copying /home/amin/cobot/cobot_ws/build/mypalletizer_communication/build/lib/mypalletizer_communication/mypalletizer_services.py -> /home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication
+[1.190s] copying /home/amin/cobot/cobot_ws/build/mypalletizer_communication/build/lib/mypalletizer_communication/mypalletizer_topics_seeed.py -> /home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication
+[1.191s] byte-compiling /home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication/__init__.py to __init__.cpython-312.pyc
+[1.191s] byte-compiling /home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication/mypalletizer_topics.py to mypalletizer_topics.cpython-312.pyc
+[1.192s] byte-compiling /home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication/mypalletizer_services.py to mypalletizer_services.cpython-312.pyc
+[1.193s] byte-compiling /home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication/mypalletizer_topics_seeed.py to mypalletizer_topics_seeed.cpython-312.pyc
+[1.195s] running install_data
+[1.195s] creating /home/amin/cobot/cobot_ws/install/mypalletizer_communication/share/ament_index
+[1.195s] creating /home/amin/cobot/cobot_ws/install/mypalletizer_communication/share/ament_index/resource_index
+[1.195s] creating /home/amin/cobot/cobot_ws/install/mypalletizer_communication/share/ament_index/resource_index/packages
+[1.195s] copying resource/mypalletizer_communication -> /home/amin/cobot/cobot_ws/install/mypalletizer_communication/share/ament_index/resource_index/packages
+[1.195s] copying package.xml -> /home/amin/cobot/cobot_ws/install/mypalletizer_communication/share/mypalletizer_communication
+[1.196s] creating /home/amin/cobot/cobot_ws/install/mypalletizer_communication/share/mypalletizer_communication/launch
+[1.196s] copying launch/communication_topic_pi.launch.py -> /home/amin/cobot/cobot_ws/install/mypalletizer_communication/share/mypalletizer_communication/launch
+[1.196s] copying launch/communication_topic.launch.py -> /home/amin/cobot/cobot_ws/install/mypalletizer_communication/share/mypalletizer_communication/launch
+[1.196s] copying launch/communication_service.launch.py -> /home/amin/cobot/cobot_ws/install/mypalletizer_communication/share/mypalletizer_communication/launch
+[1.196s] copying launch/communication_seeed.launch.py -> /home/amin/cobot/cobot_ws/install/mypalletizer_communication/share/mypalletizer_communication/launch
+[1.196s] running install_egg_info
+[1.218s] Copying ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info to /home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication-0.0.0-py3.12.egg-info
+[1.218s] running install_scripts
+[1.367s] Installing mypalletizer_services script to /home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/mypalletizer_communication
+[1.367s] Installing mypalletizer_topics script to /home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/mypalletizer_communication
+[1.367s] Installing mypalletizer_topics_seeed script to /home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/mypalletizer_communication
+[1.367s] writing list of installed files to '/home/amin/cobot/cobot_ws/build/mypalletizer_communication/install.log'
+[1.397s] Invoked command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/mypalletizer_260/mypalletizer_communication' returned '0': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mypalletizer_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mypalletizer_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amin/cobot/cobot_ws/install/mypalletizer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amin/cobot/cobot_ws/build/mypalletizer_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mypalletizer_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mypalletizer_communication build --build-base /home/amin/cobot/cobot_ws/build/mypalletizer_communication/build install --record /home/amin/cobot/cobot_ws/build/mypalletizer_communication/install.log --single-version-externally-managed install_data

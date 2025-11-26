@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>mycobot_280_gazebo</name>
+  <version>0.1.0</version>
+  <description>Gazebo (Ignition) simulation for MyCobot 280</description>
+
+  <maintainer email="you@example.com">You</maintainer>
+  <license>MIT</license>
+
+  <!-- Build tool -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Meshes live here -->
+  <exec_depend>mycobot_description</exec_depend>
+
+  <!-- Gazebo Sim + bridge -->
+  <exec_depend>ros_gz</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+
+  <!-- ros2_control stack + plugin -->
+  <exec_depend>gz_ros2_control</exec_depend>
+  <exec_depend>ros2_control</exec_depend>
+  <exec_depend>ros2_controllers</exec_depend>
+
+  <!-- Nodes launched explicitly -->
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>joint_state_broadcaster</exec_depend>
+  <exec_depend>joint_trajectory_controller</exec_depend>
+
+  <!-- Messages some examples/scripts use -->
+  <exec_depend>trajectory_msgs</exec_depend>
+
+  <!-- Optional if you use xacro at some point -->
+  <exec_depend>xacro</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+

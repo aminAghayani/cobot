@@ -1,0 +1,37 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (2.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/amin/cobot/cobot_ws/build/mycobot_280_gazebo_jazzy
+-- Install configuration: ""
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/mycobot_280_gazebo_jazzy/launch
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/mycobot_280_gazebo_jazzy/launch/mycobot_280_gazebo_jazzy.launch.py
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/mycobot_280_gazebo_jazzy/urdf
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/mycobot_280_gazebo_jazzy/urdf/mycobot_280_gazebo.urdf
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/ament_index/resource_index/package_run_dependencies/mycobot_280_gazebo_jazzy
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/ament_index/resource_index/parent_prefix_path/mycobot_280_gazebo_jazzy
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/mycobot_280_gazebo_jazzy/environment/ament_prefix_path.sh
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/mycobot_280_gazebo_jazzy/environment/ament_prefix_path.dsv
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/mycobot_280_gazebo_jazzy/environment/path.sh
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/mycobot_280_gazebo_jazzy/environment/path.dsv
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/mycobot_280_gazebo_jazzy/local_setup.bash
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/mycobot_280_gazebo_jazzy/local_setup.sh
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/mycobot_280_gazebo_jazzy/local_setup.zsh
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/mycobot_280_gazebo_jazzy/local_setup.dsv
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/mycobot_280_gazebo_jazzy/package.dsv
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/ament_index/resource_index/packages/mycobot_280_gazebo_jazzy
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/mycobot_280_gazebo_jazzy/cmake/mycobot_280_gazebo_jazzyConfig.cmake
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/mycobot_280_gazebo_jazzy/cmake/mycobot_280_gazebo_jazzyConfig-version.cmake
+-- Installing: /home/amin/cobot/cobot_ws/install/mycobot_280_gazebo_jazzy/share/mycobot_280_gazebo_jazzy/package.xml

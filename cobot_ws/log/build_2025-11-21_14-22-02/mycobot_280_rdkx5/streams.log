@@ -1,0 +1,27 @@
+[1.151s] Invoking command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/mycobot_280/mycobot_280_rdkx5': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_communication:/home/amin/cobot/cobot_ws/install/mycobot_interfaces:/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amin/cobot/cobot_ws/build/mycobot_280_rdkx5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/mycobot_280_rdkx5/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_communication/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mycobot_280_rdkx5 build --build-base /home/amin/cobot/cobot_ws/build/mycobot_280_rdkx5/build install --record /home/amin/cobot/cobot_ws/build/mycobot_280_rdkx5/install.log --single-version-externally-managed install_data
+[1.355s] running egg_info
+[1.369s] writing ../../../../build/mycobot_280_rdkx5/mycobot_280_rdkx5.egg-info/PKG-INFO
+[1.370s] writing dependency_links to ../../../../build/mycobot_280_rdkx5/mycobot_280_rdkx5.egg-info/dependency_links.txt
+[1.370s] writing entry points to ../../../../build/mycobot_280_rdkx5/mycobot_280_rdkx5.egg-info/entry_points.txt
+[1.370s] writing requirements to ../../../../build/mycobot_280_rdkx5/mycobot_280_rdkx5.egg-info/requires.txt
+[1.370s] writing top-level names to ../../../../build/mycobot_280_rdkx5/mycobot_280_rdkx5.egg-info/top_level.txt
+[1.399s] reading manifest file '../../../../build/mycobot_280_rdkx5/mycobot_280_rdkx5.egg-info/SOURCES.txt'
+[1.399s] adding license file 'LICENSE'
+[1.400s] writing manifest file '../../../../build/mycobot_280_rdkx5/mycobot_280_rdkx5.egg-info/SOURCES.txt'
+[1.400s] running build
+[1.400s] running build_py
+[1.401s] running install
+[1.406s] running install_lib
+[1.421s] running install_data
+[1.421s] running install_egg_info
+[1.436s] removing '/home/amin/cobot/cobot_ws/install/mycobot_280_rdkx5/lib/python3.12/site-packages/mycobot_280_rdkx5-0.0.0-py3.12.egg-info' (and everything under it)
+[1.436s] Copying ../../../../build/mycobot_280_rdkx5/mycobot_280_rdkx5.egg-info to /home/amin/cobot/cobot_ws/install/mycobot_280_rdkx5/lib/python3.12/site-packages/mycobot_280_rdkx5-0.0.0-py3.12.egg-info
+[1.437s] running install_scripts
+[1.537s] Installing follow_display script to /home/amin/cobot/cobot_ws/install/mycobot_280_rdkx5/lib/mycobot_280_rdkx5
+[1.537s] Installing listen_real script to /home/amin/cobot/cobot_ws/install/mycobot_280_rdkx5/lib/mycobot_280_rdkx5
+[1.538s] Installing simple_gui script to /home/amin/cobot/cobot_ws/install/mycobot_280_rdkx5/lib/mycobot_280_rdkx5
+[1.538s] Installing slider_control script to /home/amin/cobot/cobot_ws/install/mycobot_280_rdkx5/lib/mycobot_280_rdkx5
+[1.538s] Installing slider_control_adaptive_gripper script to /home/amin/cobot/cobot_ws/install/mycobot_280_rdkx5/lib/mycobot_280_rdkx5
+[1.538s] Installing teleop_keyboard script to /home/amin/cobot/cobot_ws/install/mycobot_280_rdkx5/lib/mycobot_280_rdkx5
+[1.538s] writing list of installed files to '/home/amin/cobot/cobot_ws/build/mycobot_280_rdkx5/install.log'
+[1.564s] Invoked command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/mycobot_280/mycobot_280_rdkx5' returned '0': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_communication:/home/amin/cobot/cobot_ws/install/mycobot_interfaces:/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amin/cobot/cobot_ws/build/mycobot_280_rdkx5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/mycobot_280_rdkx5/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_communication/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_interfaces/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mycobot_280_rdkx5 build --build-base /home/amin/cobot/cobot_ws/build/mycobot_280_rdkx5/build install --record /home/amin/cobot/cobot_ws/build/mycobot_280_rdkx5/install.log --single-version-externally-managed install_data

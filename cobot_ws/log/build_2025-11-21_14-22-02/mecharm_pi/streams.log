@@ -1,0 +1,29 @@
+[1.569s] Invoking command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/mecharm/mecharm_pi': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amin/cobot/cobot_ws/build/mecharm_pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mecharm_pi build --build-base /home/amin/cobot/cobot_ws/build/mecharm_pi/build install --record /home/amin/cobot/cobot_ws/build/mecharm_pi/install.log --single-version-externally-managed install_data
+[1.787s] running egg_info
+[1.812s] writing ../../../../build/mecharm_pi/mecharm_pi.egg-info/PKG-INFO
+[1.812s] writing dependency_links to ../../../../build/mecharm_pi/mecharm_pi.egg-info/dependency_links.txt
+[1.813s] writing entry points to ../../../../build/mecharm_pi/mecharm_pi.egg-info/entry_points.txt
+[1.813s] writing requirements to ../../../../build/mecharm_pi/mecharm_pi.egg-info/requires.txt
+[1.815s] writing top-level names to ../../../../build/mecharm_pi/mecharm_pi.egg-info/top_level.txt
+[1.867s] reading manifest file '../../../../build/mecharm_pi/mecharm_pi.egg-info/SOURCES.txt'
+[1.867s] adding license file 'LICENSE'
+[1.868s] writing manifest file '../../../../build/mecharm_pi/mecharm_pi.egg-info/SOURCES.txt'
+[1.869s] running build
+[1.869s] running build_py
+[1.869s] running install
+[1.884s] running install_lib
+[1.907s] running install_data
+[1.907s] running install_egg_info
+[1.933s] removing '/home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi-0.0.0-py3.12.egg-info' (and everything under it)
+[1.937s] Copying ../../../../build/mecharm_pi/mecharm_pi.egg-info to /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi-0.0.0-py3.12.egg-info
+[1.938s] running install_scripts
+[2.102s] Installing follow_display script to /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/mecharm_pi
+[2.104s] Installing listen_real script to /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/mecharm_pi
+[2.104s] Installing listen_real_of_topic script to /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/mecharm_pi
+[2.104s] Installing listen_real_service script to /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/mecharm_pi
+[2.104s] Installing simple_gui script to /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/mecharm_pi
+[2.105s] Installing slider_control script to /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/mecharm_pi
+[2.105s] Installing slider_control_adaptive_gripper script to /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/mecharm_pi
+[2.105s] Installing teleop_keyboard script to /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/mecharm_pi
+[2.105s] writing list of installed files to '/home/amin/cobot/cobot_ws/build/mecharm_pi/install.log'
+[2.164s] Invoked command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/mecharm/mecharm_pi' returned '0': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amin/cobot/cobot_ws/build/mecharm_pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mecharm_pi build --build-base /home/amin/cobot/cobot_ws/build/mecharm_pi/build install --record /home/amin/cobot/cobot_ws/build/mecharm_pi/install.log --single-version-externally-managed install_data

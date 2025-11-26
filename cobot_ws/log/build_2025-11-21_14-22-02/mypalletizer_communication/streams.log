@@ -1,0 +1,23 @@
+[0.976s] Invoking command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/mypalletizer_260/mypalletizer_communication': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mypalletizer_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mypalletizer_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amin/cobot/cobot_ws/install/mypalletizer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amin/cobot/cobot_ws/build/mypalletizer_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mypalletizer_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mypalletizer_communication build --build-base /home/amin/cobot/cobot_ws/build/mypalletizer_communication/build install --record /home/amin/cobot/cobot_ws/build/mypalletizer_communication/install.log --single-version-externally-managed install_data
+[1.299s] running egg_info
+[1.324s] writing ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/PKG-INFO
+[1.325s] writing dependency_links to ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/dependency_links.txt
+[1.325s] writing entry points to ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/entry_points.txt
+[1.326s] writing requirements to ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/requires.txt
+[1.329s] writing top-level names to ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/top_level.txt
+[1.383s] reading manifest file '../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/SOURCES.txt'
+[1.385s] writing manifest file '../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/SOURCES.txt'
+[1.385s] running build
+[1.385s] running build_py
+[1.386s] running install
+[1.399s] running install_lib
+[1.425s] running install_data
+[1.426s] running install_egg_info
+[1.457s] removing '/home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication-0.0.0-py3.12.egg-info' (and everything under it)
+[1.458s] Copying ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info to /home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication-0.0.0-py3.12.egg-info
+[1.461s] running install_scripts
+[1.640s] Installing mypalletizer_services script to /home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/mypalletizer_communication
+[1.641s] Installing mypalletizer_topics script to /home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/mypalletizer_communication
+[1.643s] Installing mypalletizer_topics_seeed script to /home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/mypalletizer_communication
+[1.646s] writing list of installed files to '/home/amin/cobot/cobot_ws/build/mypalletizer_communication/install.log'
+[1.930s] Invoked command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/mypalletizer_260/mypalletizer_communication' returned '0': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mypalletizer_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mypalletizer_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amin/cobot/cobot_ws/install/mypalletizer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amin/cobot/cobot_ws/build/mypalletizer_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/mypalletizer_communication/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mypalletizer_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mypalletizer_communication build --build-base /home/amin/cobot/cobot_ws/build/mypalletizer_communication/build install --record /home/amin/cobot/cobot_ws/build/mypalletizer_communication/install.log --single-version-externally-managed install_data

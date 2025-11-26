@@ -1,0 +1,60 @@
+[0.590s] Invoking command in '/home/amin/cobot/cobot_ws/build/pro450_moveit2': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/amin/cobot/cobot_ws/src/mycobot_ros2/mycobot_pro/pro450_moveit2 -DCMAKE_INSTALL_PREFIX=/home/amin/cobot/cobot_ws/install/pro450_moveit2
+[0.859s] -- The C compiler identification is GNU 13.3.0
+[0.930s] -- The CXX compiler identification is GNU 13.3.0
+[0.977s] -- Detecting C compiler ABI info
+[1.219s] -- Detecting C compiler ABI info - done
+[1.254s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.254s] -- Detecting C compile features
+[1.255s] -- Detecting C compile features - done
+[1.287s] -- Detecting CXX compiler ABI info
+[1.575s] -- Detecting CXX compiler ABI info - done
+[1.606s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.607s] -- Detecting CXX compile features
+[1.610s] -- Detecting CXX compile features - done
+[1.625s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.064s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.412s] -- Configuring done (1.8s)
+[2.418s] -- Generating done (0.0s)
+[2.421s] -- Build files have been written to: /home/amin/cobot/cobot_ws/build/pro450_moveit2
+[2.431s] Invoked command in '/home/amin/cobot/cobot_ws/build/pro450_moveit2' returned '0': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/amin/cobot/cobot_ws/src/mycobot_ros2/mycobot_pro/pro450_moveit2 -DCMAKE_INSTALL_PREFIX=/home/amin/cobot/cobot_ws/install/pro450_moveit2
+[2.433s] Invoking command in '/home/amin/cobot/cobot_ws/build/pro450_moveit2': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amin/cobot/cobot_ws/build/pro450_moveit2 -- -j8 -l8
+[2.493s] Invoked command in '/home/amin/cobot/cobot_ws/build/pro450_moveit2' returned '0': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amin/cobot/cobot_ws/build/pro450_moveit2 -- -j8 -l8
+[2.495s] Invoking command in '/home/amin/cobot/cobot_ws/build/pro450_moveit2': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/amin/cobot/cobot_ws/build/pro450_moveit2
+[2.891s] -- Install configuration: ""
+[2.891s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/ament_index/resource_index/package_run_dependencies/pro450_moveit2
+[2.891s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/ament_index/resource_index/parent_prefix_path/pro450_moveit2
+[2.891s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/environment/ament_prefix_path.sh
+[2.891s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/environment/ament_prefix_path.dsv
+[2.892s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/environment/path.sh
+[2.892s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/environment/path.dsv
+[2.892s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/local_setup.bash
+[2.892s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/local_setup.sh
+[2.892s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/local_setup.zsh
+[2.892s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/local_setup.dsv
+[2.892s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/package.dsv
+[2.892s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/ament_index/resource_index/packages/pro450_moveit2
+[2.892s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/cmake/pro450_moveit2Config.cmake
+[2.893s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/cmake/pro450_moveit2Config-version.cmake
+[2.893s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/package.xml
+[2.893s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/launch
+[2.893s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/launch/warehouse_db.launch.py
+[2.893s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/launch/rsp.launch.py
+[2.893s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/launch/move_group.launch.py
+[2.893s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/launch/setup_assistant.launch.py
+[2.893s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/launch/spawn_controllers.launch.py
+[2.893s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/launch/demo.launch.py
+[2.894s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/launch/moveit_rviz.launch.py
+[2.894s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/launch/static_virtual_joint_tfs.launch.py
+[2.894s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/config
+[2.894s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/config/pilz_cartesian_limits.yaml
+[2.894s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/config/joint_limits.yaml
+[2.894s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/config/kinematics.yaml
+[2.899s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/config/moveit.rviz
+[2.899s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/config/firefighter.srdf
+[2.900s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/config/ros2_controllers.yaml
+[2.900s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/config/firefighter.ros2_control.xacro
+[2.900s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/config/moveit_controllers.yaml
+[2.900s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/config/firefighter.urdf.xacro
+[2.900s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/config/initial_positions.yaml
+[2.900s] -- Installing: /home/amin/cobot/cobot_ws/install/pro450_moveit2/share/pro450_moveit2/.setup_assistant
+[2.905s] Invoked command in '/home/amin/cobot/cobot_ws/build/pro450_moveit2' returned '0': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/amin/cobot/cobot_ws/build/pro450_moveit2

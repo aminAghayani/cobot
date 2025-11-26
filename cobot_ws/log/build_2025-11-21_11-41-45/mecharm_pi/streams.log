@@ -1,0 +1,77 @@
+[2.048s] Invoking command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/mecharm/mecharm_pi': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amin/cobot/cobot_ws/build/mecharm_pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mecharm_pi build --build-base /home/amin/cobot/cobot_ws/build/mecharm_pi/build install --record /home/amin/cobot/cobot_ws/build/mecharm_pi/install.log --single-version-externally-managed install_data
+[2.948s] running egg_info
+[2.951s] creating ../../../../build/mecharm_pi/mecharm_pi.egg-info
+[3.032s] writing ../../../../build/mecharm_pi/mecharm_pi.egg-info/PKG-INFO
+[3.032s] writing dependency_links to ../../../../build/mecharm_pi/mecharm_pi.egg-info/dependency_links.txt
+[3.032s] writing entry points to ../../../../build/mecharm_pi/mecharm_pi.egg-info/entry_points.txt
+[3.032s] writing requirements to ../../../../build/mecharm_pi/mecharm_pi.egg-info/requires.txt
+[3.032s] writing top-level names to ../../../../build/mecharm_pi/mecharm_pi.egg-info/top_level.txt
+[3.034s] writing manifest file '../../../../build/mecharm_pi/mecharm_pi.egg-info/SOURCES.txt'
+[3.191s] reading manifest file '../../../../build/mecharm_pi/mecharm_pi.egg-info/SOURCES.txt'
+[3.191s] adding license file 'LICENSE'
+[3.192s] writing manifest file '../../../../build/mecharm_pi/mecharm_pi.egg-info/SOURCES.txt'
+[3.192s] running build
+[3.192s] running build_py
+[3.193s] creating /home/amin/cobot/cobot_ws/build/mecharm_pi/build
+[3.193s] creating /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib
+[3.193s] creating /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi
+[3.194s] copying mecharm_pi/listen_real.py -> /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi
+[3.194s] copying mecharm_pi/listen_real_of_topic.py -> /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi
+[3.195s] copying mecharm_pi/listen_real_service.py -> /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi
+[3.195s] copying mecharm_pi/slider_control.py -> /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi
+[3.195s] copying mecharm_pi/teleop_keyboard.py -> /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi
+[3.196s] copying mecharm_pi/__init__.py -> /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi
+[3.196s] copying mecharm_pi/slider_control_adaptive_gripper.py -> /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi
+[3.197s] copying mecharm_pi/follow_display.py -> /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi
+[3.197s] copying mecharm_pi/simple_gui.py -> /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi
+[3.197s] running install
+[3.211s] running install_lib
+[3.253s] creating /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[3.253s] copying /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi/listen_real.py -> /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[3.254s] copying /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi/listen_real_of_topic.py -> /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[3.254s] copying /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi/listen_real_service.py -> /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[3.254s] copying /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi/slider_control.py -> /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[3.255s] copying /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi/teleop_keyboard.py -> /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[3.255s] copying /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi/__init__.py -> /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[3.256s] copying /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi/slider_control_adaptive_gripper.py -> /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[3.256s] copying /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi/follow_display.py -> /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[3.256s] copying /home/amin/cobot/cobot_ws/build/mecharm_pi/build/lib/mecharm_pi/simple_gui.py -> /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[3.257s] byte-compiling /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi/listen_real.py to listen_real.cpython-312.pyc
+[3.259s] byte-compiling /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi/listen_real_of_topic.py to listen_real_of_topic.cpython-312.pyc
+[3.260s] byte-compiling /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi/listen_real_service.py to listen_real_service.cpython-312.pyc
+[3.264s] byte-compiling /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi/slider_control.py to slider_control.cpython-312.pyc
+[3.266s] byte-compiling /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi/teleop_keyboard.py to teleop_keyboard.cpython-312.pyc
+[3.270s] byte-compiling /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi/__init__.py to __init__.cpython-312.pyc
+[3.270s] byte-compiling /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi/slider_control_adaptive_gripper.py to slider_control_adaptive_gripper.cpython-312.pyc
+[3.272s] byte-compiling /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi/follow_display.py to follow_display.cpython-312.pyc
+[3.273s] byte-compiling /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi/simple_gui.py to simple_gui.cpython-312.pyc
+[3.282s] running install_data
+[3.282s] creating /home/amin/cobot/cobot_ws/install/mecharm_pi/share/ament_index
+[3.283s] creating /home/amin/cobot/cobot_ws/install/mecharm_pi/share/ament_index/resource_index
+[3.283s] creating /home/amin/cobot/cobot_ws/install/mecharm_pi/share/ament_index/resource_index/packages
+[3.283s] copying resource/mecharm_pi -> /home/amin/cobot/cobot_ws/install/mecharm_pi/share/ament_index/resource_index/packages
+[3.284s] copying package.xml -> /home/amin/cobot/cobot_ws/install/mecharm_pi/share/mecharm_pi
+[3.284s] creating /home/amin/cobot/cobot_ws/install/mecharm_pi/share/mecharm_pi/launch
+[3.284s] copying launch/teleop_keyboard.launch.py -> /home/amin/cobot/cobot_ws/install/mecharm_pi/share/mecharm_pi/launch
+[3.285s] copying launch/simple_gui.launch.py -> /home/amin/cobot/cobot_ws/install/mecharm_pi/share/mecharm_pi/launch
+[3.285s] copying launch/slider_control_adaptive_gripper.launch.py -> /home/amin/cobot/cobot_ws/install/mecharm_pi/share/mecharm_pi/launch
+[3.285s] copying launch/test.launch.py -> /home/amin/cobot/cobot_ws/install/mecharm_pi/share/mecharm_pi/launch
+[3.286s] copying launch/test_adaptive_gripper.launch.py -> /home/amin/cobot/cobot_ws/install/mecharm_pi/share/mecharm_pi/launch
+[3.286s] copying launch/slider_control.launch.py -> /home/amin/cobot/cobot_ws/install/mecharm_pi/share/mecharm_pi/launch
+[3.287s] copying launch/follow.launch.py -> /home/amin/cobot/cobot_ws/install/mecharm_pi/share/mecharm_pi/launch
+[3.287s] creating /home/amin/cobot/cobot_ws/install/mecharm_pi/share/mecharm_pi/config
+[3.287s] copying config/mecharm_pi.rviz -> /home/amin/cobot/cobot_ws/install/mecharm_pi/share/mecharm_pi/config
+[3.287s] copying config/mycobot_with_marker.rviz -> /home/amin/cobot/cobot_ws/install/mecharm_pi/share/mecharm_pi/config
+[3.288s] running install_egg_info
+[3.327s] Copying ../../../../build/mecharm_pi/mecharm_pi.egg-info to /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi-0.0.0-py3.12.egg-info
+[3.328s] running install_scripts
+[3.736s] Installing follow_display script to /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/mecharm_pi
+[3.736s] Installing listen_real script to /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/mecharm_pi
+[3.736s] Installing listen_real_of_topic script to /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/mecharm_pi
+[3.736s] Installing listen_real_service script to /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/mecharm_pi
+[3.736s] Installing simple_gui script to /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/mecharm_pi
+[3.737s] Installing slider_control script to /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/mecharm_pi
+[3.737s] Installing slider_control_adaptive_gripper script to /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/mecharm_pi
+[3.737s] Installing teleop_keyboard script to /home/amin/cobot/cobot_ws/install/mecharm_pi/lib/mecharm_pi
+[3.737s] writing list of installed files to '/home/amin/cobot/cobot_ws/build/mecharm_pi/install.log'
+[4.530s] Invoked command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/mecharm/mecharm_pi' returned '0': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amin/cobot/cobot_ws/build/mecharm_pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/mecharm_pi/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mecharm_pi build --build-base /home/amin/cobot/cobot_ws/build/mecharm_pi/build install --record /home/amin/cobot/cobot_ws/build/mecharm_pi/install.log --single-version-externally-managed install_data

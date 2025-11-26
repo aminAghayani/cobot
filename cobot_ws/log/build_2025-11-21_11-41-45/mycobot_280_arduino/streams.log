@@ -1,0 +1,86 @@
+[2.419s] Invoking command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/mycobot_280/mycobot_280_arduino': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amin/cobot/cobot_ws/build/mycobot_280_arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mycobot_280_arduino build --build-base /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build install --record /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/install.log --single-version-externally-managed install_data
+[4.442s] running egg_info
+[4.442s] creating ../../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info
+[4.442s] writing ../../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info/PKG-INFO
+[4.442s] writing dependency_links to ../../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info/dependency_links.txt
+[4.442s] writing entry points to ../../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info/entry_points.txt
+[4.443s] writing requirements to ../../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info/requires.txt
+[4.443s] writing top-level names to ../../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info/top_level.txt
+[4.443s] writing manifest file '../../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info/SOURCES.txt'
+[4.780s] reading manifest file '../../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info/SOURCES.txt'
+[4.780s] adding license file 'LICENSE'
+[4.799s] writing manifest file '../../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info/SOURCES.txt'
+[4.799s] running build
+[4.799s] running build_py
+[4.800s] creating /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build
+[4.800s] creating /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib
+[4.800s] creating /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.800s] copying mycobot_280_arduino/opencv_camera.py -> /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.800s] copying mycobot_280_arduino/camera_display.py -> /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.800s] copying mycobot_280_arduino/listen_real.py -> /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.801s] copying mycobot_280_arduino/listen_real_of_topic.py -> /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.801s] copying mycobot_280_arduino/listen_real_service.py -> /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.801s] copying mycobot_280_arduino/slider_control.py -> /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.801s] copying mycobot_280_arduino/teleop_keyboard.py -> /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.801s] copying mycobot_280_arduino/__init__.py -> /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.802s] copying mycobot_280_arduino/slider_control_adaptive_gripper.py -> /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.802s] copying mycobot_280_arduino/follow_display.py -> /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.802s] copying mycobot_280_arduino/simple_gui.py -> /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.823s] running install
+[4.863s] running install_lib
+[5.023s] creating /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[5.033s] copying /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/opencv_camera.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[5.033s] copying /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/camera_display.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[5.034s] copying /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/listen_real.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[5.034s] copying /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/listen_real_of_topic.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[5.034s] copying /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/listen_real_service.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[5.034s] copying /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/slider_control.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[5.034s] copying /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/teleop_keyboard.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[5.038s] copying /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/__init__.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[5.038s] copying /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/slider_control_adaptive_gripper.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[5.038s] copying /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/follow_display.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[5.038s] copying /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/simple_gui.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[5.043s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/opencv_camera.py to opencv_camera.cpython-312.pyc
+[5.047s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/camera_display.py to camera_display.cpython-312.pyc
+[5.051s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/listen_real.py to listen_real.cpython-312.pyc
+[5.059s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/listen_real_of_topic.py to listen_real_of_topic.cpython-312.pyc
+[5.064s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/listen_real_service.py to listen_real_service.cpython-312.pyc
+[5.083s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/slider_control.py to slider_control.cpython-312.pyc
+[5.083s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/teleop_keyboard.py to teleop_keyboard.cpython-312.pyc
+[5.098s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/__init__.py to __init__.cpython-312.pyc
+[5.104s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/slider_control_adaptive_gripper.py to slider_control_adaptive_gripper.cpython-312.pyc
+[5.105s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/follow_display.py to follow_display.cpython-312.pyc
+[5.113s] byte-compiling /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/simple_gui.py to simple_gui.cpython-312.pyc
+[5.134s] running install_data
+[5.134s] creating /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/share/ament_index
+[5.141s] creating /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/share/ament_index/resource_index
+[5.141s] creating /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/share/ament_index/resource_index/packages
+[5.141s] copying resource/mycobot_280_arduino -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/share/ament_index/resource_index/packages
+[5.142s] copying package.xml -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/share/mycobot_280_arduino
+[5.143s] creating /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/share/mycobot_280_arduino/launch
+[5.143s] copying launch/mycobot_follow.launch.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/share/mycobot_280_arduino/launch
+[5.143s] copying launch/teleop_keyboard.launch.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/share/mycobot_280_arduino/launch
+[5.143s] copying launch/simple_gui.launch.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/share/mycobot_280_arduino/launch
+[5.144s] copying launch/slider_control_adaptive_gripper.launch.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/share/mycobot_280_arduino/launch
+[5.144s] copying launch/test.launch.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/share/mycobot_280_arduino/launch
+[5.144s] copying launch/test_gripper.launch.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/share/mycobot_280_arduino/launch
+[5.144s] copying launch/slider_control.launch.py -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/share/mycobot_280_arduino/launch
+[5.145s] creating /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/share/mycobot_280_arduino/config
+[5.145s] copying config/mycobot_ar.rviz -> /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/share/mycobot_280_arduino/config
+[5.145s] running install_egg_info
+[5.322s] Copying ../../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info to /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino-0.0.0-py3.12.egg-info
+[5.326s] running install_scripts
+[6.683s] Installing camera_display script to /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[6.684s] Installing detect_marker script to /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[6.684s] Installing follow_display script to /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[6.685s] Installing following_marker script to /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[6.685s] Installing listen_real script to /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[6.688s] Installing listen_real_of_topic script to /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[6.688s] Installing listen_real_service script to /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[6.693s] Installing opencv_camera script to /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[6.693s] Installing simple_gui script to /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[6.694s] Installing slider_control script to /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[6.694s] Installing slider_control_adaptive_gripper script to /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[6.694s] Installing teleop_keyboard script to /home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[6.705s] writing list of installed files to '/home/amin/cobot/cobot_ws/build/mycobot_280_arduino/install.log'
+[7.121s] Invoked command in '/home/amin/cobot/cobot_ws/src/mycobot_ros2/mycobot_280/mycobot_280_arduino' returned '0': AMENT_PREFIX_PATH=/home/amin/cobot/cobot_ws/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amin/cobot/cobot_ws/build/mycobot_280_arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amin/cobot/cobot_ws/install/mycobot_280_arduino/lib/python3.12/site-packages:/home/amin/cobot/cobot_ws/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mycobot_280_arduino build --build-base /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/build install --record /home/amin/cobot/cobot_ws/build/mycobot_280_arduino/install.log --single-version-externally-managed install_data
