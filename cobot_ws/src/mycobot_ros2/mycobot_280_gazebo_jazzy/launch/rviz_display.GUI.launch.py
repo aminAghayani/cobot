@@ -42,7 +42,17 @@ def generate_launch_description():
         output="screen"
     )
 
+    # Joint State Publisher GUI for interactive control sliders
+    joint_state_publisher_gui = Node(
+        package="joint_state_publisher_gui",
+        executable="joint_state_publisher_gui",
+        name="joint_state_publisher_gui",
+        parameters=[{"use_sim_time": False}],
+        output="screen"
+    )
+
     return LaunchDescription([
         robot_state_publisher,
         rviz_node,
+        joint_state_publisher_gui,
     ])
